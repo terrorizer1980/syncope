@@ -33,7 +33,7 @@ under the License.
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
     <version>23</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <url>http://syncope.apache.org/</url>
@@ -411,7 +411,7 @@ under the License.
     <jackson.version>2.12.3</jackson.version>
 
     <spring-boot.version>2.5.2</spring-boot.version>
-    <spring-cloud-gateway.version>3.0.3</spring-cloud-gateway.version>
+    <spring-cloud-gateway.version>3.0.5</spring-cloud-gateway.version>
 
     <openjpa.version>3.2.0</openjpa.version>
     <hikaricp.version>4.0.3</hikaricp.version>
@@ -2804,10 +2804,10 @@ under the License.
                 <year>${year}</year>
                 <numbered>true</numbered>
                 <icons>font</icons>
-                <pagenums />
-                <idprefix />
+                <pagenums/>
+                <idprefix/>
                 <idseparator>-</idseparator>
-                <allow-uri-read />
+                <allow-uri-read/>
               </attributes>
             </configuration>
             <executions>
@@ -2903,10 +2903,10 @@ under the License.
                 <configuration>
                   <target>
                     <replace dir="${rootpom.basedir}/target/site" token="48px" value="72px">
-                      <include name="**/*.html" />
+                      <include name="**/*.html"/>
                     </replace>
                     <replace dir="${rootpom.basedir}/target/site" token="dropdown-toggle&quot;" value="dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;">
-                      <include name="**/*.html" />
+                      <include name="**/*.html"/>
                     </replace>
                   </target>
                 </configuration>
