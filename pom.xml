@@ -33,7 +33,7 @@ under the License.
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
     <version>23</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <url>http://syncope.apache.org/</url>
@@ -449,7 +449,7 @@ under the License.
 
     <pac4j.version>5.0.1</pac4j.version>
 
-    <cas.version>6.4.0-RC4</cas.version>
+    <cas.version>6.5.8</cas.version>
     <cas-client.version>3.6.2</cas-client.version>
 
     <h2.version>1.4.200</h2.version>
@@ -2804,10 +2804,10 @@ under the License.
                 <year>${year}</year>
                 <numbered>true</numbered>
                 <icons>font</icons>
-                <pagenums />
-                <idprefix />
+                <pagenums/>
+                <idprefix/>
                 <idseparator>-</idseparator>
-                <allow-uri-read />
+                <allow-uri-read/>
               </attributes>
             </configuration>
             <executions>
@@ -2903,10 +2903,10 @@ under the License.
                 <configuration>
                   <target>
                     <replace dir="${rootpom.basedir}/target/site" token="48px" value="72px">
-                      <include name="**/*.html" />
+                      <include name="**/*.html"/>
                     </replace>
                     <replace dir="${rootpom.basedir}/target/site" token="dropdown-toggle&quot;" value="dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;">
-                      <include name="**/*.html" />
+                      <include name="**/*.html"/>
                     </replace>
                   </target>
                 </configuration>
