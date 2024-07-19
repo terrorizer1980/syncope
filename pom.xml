@@ -33,7 +33,7 @@ under the License.
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
     <version>23</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <url>http://syncope.apache.org/</url>
@@ -404,7 +404,7 @@ under the License.
     <connid.scimv11.version>1.0.1</connid.scimv11.version>
     <connid.servicenow.version>1.0.0</connid.servicenow.version>
 
-    <cxf.version>3.4.4</cxf.version>
+    <cxf.version>3.5.9</cxf.version>
     <bouncycastle.version>1.69</bouncycastle.version>
     <nimbus-jose-jwt.version>9.10.1</nimbus-jose-jwt.version>
 
@@ -2804,10 +2804,10 @@ under the License.
                 <year>${year}</year>
                 <numbered>true</numbered>
                 <icons>font</icons>
-                <pagenums />
-                <idprefix />
+                <pagenums/>
+                <idprefix/>
                 <idseparator>-</idseparator>
-                <allow-uri-read />
+                <allow-uri-read/>
               </attributes>
             </configuration>
             <executions>
@@ -2903,10 +2903,10 @@ under the License.
                 <configuration>
                   <target>
                     <replace dir="${rootpom.basedir}/target/site" token="48px" value="72px">
-                      <include name="**/*.html" />
+                      <include name="**/*.html"/>
                     </replace>
                     <replace dir="${rootpom.basedir}/target/site" token="dropdown-toggle&quot;" value="dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;">
-                      <include name="**/*.html" />
+                      <include name="**/*.html"/>
                     </replace>
                   </target>
                 </configuration>
